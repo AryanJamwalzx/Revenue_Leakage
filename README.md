@@ -1,7 +1,5 @@
 # 💸 Revenue Leakage Detection System
 
-![Revenue Leakage](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
-
 ---
 
 ## 🚀 Project Overview
@@ -59,11 +57,23 @@ The project leverages transaction and billing data from:
 
 ---
 
-## 🖥️ Demo Screenshot / GIF
+## 🎮 Analytical Game: Spot the Revenue Leak!
 
-![Dashboard Screenshot](https://github.com/yourusername/revenue-leakage-system/assets/your-screenshot.png)
+Let's put your skills to the test! Here’s a mini-game:
 
-*Or insert your own demo GIF / screenshot here*
+**You have 5 transactions below. One has a suspiciously missing refund. Can you spot the leakage?**
+
+| Transaction ID | Amount | Refund Status | Comments                  |
+|----------------|--------|---------------|---------------------------|
+| TXN001         | 2500   | No            | Normal                    |
+| TXN002         | 3400   | Yes           | Partial refund processed  |
+| TXN003         | 1500   | No            | Customer complaint noted  |
+| TXN004         | 4200   | No            | **Potential leak here?**  |
+| TXN005         | 2750   | Yes           | Refund fully processed    |
+
+**Hint:** Check transactions with no refunds but customer issues or unusually high amounts.
+
+Want to try building a system that automatically finds these leaks? Dive into the project and see how it works! 🚀
 
 ---
 
